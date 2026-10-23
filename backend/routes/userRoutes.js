@@ -1,0 +1,17 @@
+import { Router } from 'express';
+import { isUser } from '../middleware/authMiddleware.js';
+import validateObjectId from '../middleware/validateObjectId.js';
+import * as users from '../controllers/userController.js';
+import * as appointments from '../controllers/appointmentController.js';
+import * as reviews from '../controllers/reviewController.js';
+import { validateOffer } from '../controllers/offerController.js';
+const router = Router(); router.use(isUser);
+router.route('/profile').get(users.getProfile).put(users.updateProfile).delete(users.deleteProfile);
+router.put('/password', users.updatePassword); router.get('/slots', appointments.getSlots);
+router.route('/appointments').get(appointments.getAppointments).post(appointments.createAppointment);
+router.get('/appointments/:id', validateObjectId, appointments.getAppointment);
+router.put('/appointments/:id/cancel', validateObjectId, appointments.cancelAppointment);
+router.post('/offers/validate', validateOffer);
+router.route('/reviews').get(reviews.getReviews).post(reviews.createReview).put(reviews.updateReview).delete(reviews.deleteReview);
+router.route('/reviews/:id').put(validateObjectId, reviews.updateReview).delete(validateObjectId, reviews.deleteReview);
+export default router;

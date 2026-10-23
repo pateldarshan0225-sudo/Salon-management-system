@@ -1,0 +1,2 @@
+import { fallbackImage, imageSource } from '../utils/images';
+export default function StaffCard({ staff }) { return <article className="staff-card"><div className="card-image"><img src={imageSource(staff.image) || '/images/staff-placeholder.svg'} onError={e => fallbackImage(e, 'staff')} alt={staff.name} loading="lazy"/></div><h3>{staff.name}</h3><p>{staff.categoryId?.name} specialist</p><span className="eyebrow">{staff.experienceYears} years of experience</span></article>; }

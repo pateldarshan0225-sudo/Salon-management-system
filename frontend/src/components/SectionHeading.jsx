@@ -1,0 +1,1 @@
+export default function SectionHeading({ label, title, children, align = 'center' }) { return <div className={`section-heading ${align}`}><span className="eyebrow">{label}</span><h2>{title}</h2>{children && <p>{children}</p>}<span className="flourish" aria-hidden="true">✧</span></div>; }

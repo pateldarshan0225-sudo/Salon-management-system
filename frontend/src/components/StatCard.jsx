@@ -1,0 +1,1 @@
+export default function StatCard({ label, value, symbol = '✧' }) { return <article className="stat-card"><span aria-hidden="true">{symbol}</span><div><strong>{value}</strong><p>{label}</p></div></article>; }

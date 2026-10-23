@@ -1,0 +1,6 @@
+import BookingLink from '../../components/BookingLink';
+import { useAuth } from '../../context/AuthContext';
+import { Link } from 'react-router-dom';
+import PageBanner from '../../components/PageBanner';
+import SectionHeading from '../../components/SectionHeading';
+export default function Contact() { const { account, loading } = useAuth(); return <><PageBanner title="Find Your Sanctuary"/><section className="section container"><SectionHeading label="We look forward to seeing you" title="Come in. Settle in. Feel good."/><div className="grid three"><article className="card"><h3>Visit us</h3><p>24 Garden Lane, Koregaon Park<br/>Pune, Maharashtra 411001</p><p className="muted">Illustrative address for this college project.</p></article><article className="card"><h3>Say hello</h3><a href="tel:+912067890123">+91 20 6789 0123</a><p><a href="mailto:hello@sageandserenity.example">hello@sageandserenity.example</a></p></article><article className="card"><h3>Opening hours</h3><p>Monday – Sunday<br/>9:00 AM – 7:00 PM</p><p>Specialist availability varies by day.</p></article></div>{!loading && account?.role !== 'admin' && <div className="booking-cta"><h2>Your next moment of calm starts here.</h2><BookingLink className="btn" to="/user/book">Book Appointment ↗</BookingLink></div>}</section></>; }

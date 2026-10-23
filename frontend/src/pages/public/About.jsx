@@ -1,0 +1,8 @@
+import PageBanner from '../../components/PageBanner';
+import SectionHeading from '../../components/SectionHeading';
+import StatsCounter from '../../components/StatsCounter';
+import StaffCard from '../../components/StaffCard';
+import Alert from '../../components/Alert';
+import useApi from '../../hooks/useApi';
+import { images, fallbackImage } from '../../utils/images';
+export default function About() { const staff = useApi('/public/staff?limit=3'); const stats = useApi('/public/stats'); return <><PageBanner title="Our Story"/><section className="section container split"><img className="rounded-image" src={images.about} alt="Our calm and welcoming salon" loading="lazy" onError={fallbackImage}/><div><SectionHeading label="Beauty with intention" title="A place to pause. A reason to glow." align="left"/><p>Sage & Serenity began with a simple idea: caring for yourself should feel easy. Our salon brings hair, skin, nails and wellness together in a comfortable space, with real people who listen.</p><h3>Our mission</h3><p>To make thoughtful, professional care accessible, with clear pricing and time set aside just for you.</p><ul className="benefits">{['Individual consultations','Skilled specialists','Clean tools and considered products','Transparent treatment prices','Time to unwind'].map(t => <li key={t}>✓ {t}</li>)}</ul></div></section><StatsCounter stats={stats.data || {}}/><section className="section container"><SectionHeading label="In caring hands" title="Our specialists."/><Alert>{staff.error}</Alert><div className="grid three">{staff.data?.items.map(s => <StaffCard key={s._id} staff={s}/>)}</div></section></>; }
