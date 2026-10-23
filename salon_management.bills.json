@@ -1,0 +1,662 @@
+[{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921154ec"
+  },
+  "appointmentId": {
+    "$oid": "93c80469a4d55e2a9f92c289"
+  },
+  "subtotal": 1550,
+  "discount": 155,
+  "finalAmount": 1395,
+  "paymentMode": "Cash",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-22T04:45:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-22T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921154f7"
+  },
+  "appointmentId": {
+    "$oid": "52fcee721e74ab3bf03a4128"
+  },
+  "subtotal": 850,
+  "discount": 0,
+  "finalAmount": 850,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-21T05:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-21T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115502"
+  },
+  "appointmentId": {
+    "$oid": "780d6c31af6fcbd90fb88ad6"
+  },
+  "subtotal": 350,
+  "discount": 35,
+  "finalAmount": 315,
+  "paymentMode": "Card",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-20T06:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-20T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211550e"
+  },
+  "appointmentId": {
+    "$oid": "5450989f59b1e019759771fc"
+  },
+  "subtotal": 2250,
+  "discount": 0,
+  "finalAmount": 2250,
+  "paymentMode": "Cash",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-19T06:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-19T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115519"
+  },
+  "appointmentId": {
+    "$oid": "bd1ab8e12e6a62a7576a3276"
+  },
+  "subtotal": 1500,
+  "discount": 150,
+  "finalAmount": 1350,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-18T05:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-18T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115524"
+  },
+  "appointmentId": {
+    "$oid": "66f137c81035299662cba792"
+  },
+  "subtotal": 550,
+  "discount": 0,
+  "finalAmount": 550,
+  "paymentMode": "Card",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-17T05:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-17T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115530"
+  },
+  "appointmentId": {
+    "$oid": "fd9222e3b2aca2013e6bbd7e"
+  },
+  "subtotal": 1550,
+  "discount": 155,
+  "finalAmount": 1395,
+  "paymentMode": "Cash",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-16T04:45:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-16T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211553b"
+  },
+  "appointmentId": {
+    "$oid": "515df3f86bc03753c16dfa09"
+  },
+  "subtotal": 850,
+  "discount": 0,
+  "finalAmount": 850,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-15T05:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-15T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115546"
+  },
+  "appointmentId": {
+    "$oid": "a6166147f14b18b42eec2de5"
+  },
+  "subtotal": 350,
+  "discount": 35,
+  "finalAmount": 315,
+  "paymentMode": "Card",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-10-14T06:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-10-14T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115550"
+  },
+  "appointmentId": {
+    "$oid": "6ac2b2c705d8e61fc8cb4698"
+  },
+  "subtotal": 2250,
+  "discount": 0,
+  "finalAmount": 2250,
+  "paymentMode": "Cash",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-10-13T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115559"
+  },
+  "appointmentId": {
+    "$oid": "dd49f3eab1c4e5670586cfa4"
+  },
+  "subtotal": 1500,
+  "discount": 150,
+  "finalAmount": 1350,
+  "paymentMode": "UPI",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-10-11T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115562"
+  },
+  "appointmentId": {
+    "$oid": "676236acf845e49936327e98"
+  },
+  "subtotal": 550,
+  "discount": 0,
+  "finalAmount": 550,
+  "paymentMode": "Card",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-10-11T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677edf"
+  },
+  "appointmentId": {
+    "$oid": "c07be5267261f756d340c087"
+  },
+  "subtotal": 1550,
+  "discount": 155,
+  "finalAmount": 1395,
+  "paymentMode": "Cash",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-09-27T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677eea"
+  },
+  "appointmentId": {
+    "$oid": "af472b2cdd5ecd18a60dd56c"
+  },
+  "subtotal": 850,
+  "discount": 0,
+  "finalAmount": 850,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-26T05:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-26T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677ef5"
+  },
+  "appointmentId": {
+    "$oid": "bcd4402c82023be718d835c2"
+  },
+  "subtotal": 1500,
+  "discount": 150,
+  "finalAmount": 1350,
+  "paymentMode": "Card",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-26T06:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-26T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f15"
+  },
+  "appointmentId": {
+    "$oid": "754b863a498c8f20819982e6"
+  },
+  "subtotal": 2250,
+  "discount": 225,
+  "finalAmount": 2025,
+  "paymentMode": "Cash",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-22T06:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-22T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f20"
+  },
+  "appointmentId": {
+    "$oid": "da783154e97871575c1a211f"
+  },
+  "subtotal": 1500,
+  "discount": 0,
+  "finalAmount": 1500,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-20T05:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-20T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f2b"
+  },
+  "appointmentId": {
+    "$oid": "85ebc6a0ff1892cc1db00d5e"
+  },
+  "subtotal": 850,
+  "discount": 85,
+  "finalAmount": 765,
+  "paymentMode": "Card",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-09-20T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f4b"
+  },
+  "appointmentId": {
+    "$oid": "a752f7c9d68354d45435ec83"
+  },
+  "subtotal": 1550,
+  "discount": 155,
+  "finalAmount": 1395,
+  "paymentMode": "Cash",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-09-16T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f56"
+  },
+  "appointmentId": {
+    "$oid": "b1fd11100c7b837bcd069a0d"
+  },
+  "subtotal": 850,
+  "discount": 0,
+  "finalAmount": 850,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-15T05:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-15T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f61"
+  },
+  "appointmentId": {
+    "$oid": "79285a1e57423951efee771c"
+  },
+  "subtotal": 1500,
+  "discount": 150,
+  "finalAmount": 1350,
+  "paymentMode": "Card",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-14T06:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-14T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f81"
+  },
+  "appointmentId": {
+    "$oid": "d5b2a6c29913034abae82415"
+  },
+  "subtotal": 2250,
+  "discount": 225,
+  "finalAmount": 2025,
+  "paymentMode": "Cash",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-10T06:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-10T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f8c"
+  },
+  "appointmentId": {
+    "$oid": "a6625492c6cfc55877e68437"
+  },
+  "subtotal": 1500,
+  "discount": 0,
+  "finalAmount": 1500,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-09T05:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-09T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f97"
+  },
+  "appointmentId": {
+    "$oid": "be0b6241b3dd629dbcc43489"
+  },
+  "subtotal": 850,
+  "discount": 85,
+  "finalAmount": 765,
+  "paymentMode": "Card",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-09-08T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fb7"
+  },
+  "appointmentId": {
+    "$oid": "758a722e52e8ec5ff4e4d9ab"
+  },
+  "subtotal": 1550,
+  "discount": 155,
+  "finalAmount": 1395,
+  "paymentMode": "Cash",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-09-04T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fc2"
+  },
+  "appointmentId": {
+    "$oid": "98fb8e3fc3e8980a8407c0f8"
+  },
+  "subtotal": 850,
+  "discount": 0,
+  "finalAmount": 850,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-03T05:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-03T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fcd"
+  },
+  "appointmentId": {
+    "$oid": "6a5bedeab8ad4231271bf65d"
+  },
+  "subtotal": 1500,
+  "discount": 150,
+  "finalAmount": 1350,
+  "paymentMode": "Card",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-09-02T06:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-09-02T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fed"
+  },
+  "appointmentId": {
+    "$oid": "654aa743d1e71290da2d70f8"
+  },
+  "subtotal": 2250,
+  "discount": 225,
+  "finalAmount": 2025,
+  "paymentMode": "Cash",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-08-29T06:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-08-29T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677ff8"
+  },
+  "appointmentId": {
+    "$oid": "d856d63de3d7f00e8c15d36b"
+  },
+  "subtotal": 1500,
+  "discount": 0,
+  "finalAmount": 1500,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-08-28T05:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-08-28T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678003"
+  },
+  "appointmentId": {
+    "$oid": "834f24c41b179a91481ee08a"
+  },
+  "subtotal": 850,
+  "discount": 85,
+  "finalAmount": 765,
+  "paymentMode": "Card",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-08-27T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678023"
+  },
+  "appointmentId": {
+    "$oid": "6d30185db3cc616a1a98bae1"
+  },
+  "subtotal": 1550,
+  "discount": 155,
+  "finalAmount": 1395,
+  "paymentMode": "Cash",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-08-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d267802e"
+  },
+  "appointmentId": {
+    "$oid": "86719822dee0a8093fe1c1ee"
+  },
+  "subtotal": 850,
+  "discount": 0,
+  "finalAmount": 850,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-08-22T05:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-08-22T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678039"
+  },
+  "appointmentId": {
+    "$oid": "91eac5c69d1fa8a255003701"
+  },
+  "subtotal": 1500,
+  "discount": 150,
+  "finalAmount": 1350,
+  "paymentMode": "Card",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-08-21T06:30:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-08-21T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678059"
+  },
+  "appointmentId": {
+    "$oid": "00f6f1c013723e2581183563"
+  },
+  "subtotal": 2250,
+  "discount": 225,
+  "finalAmount": 2025,
+  "paymentMode": "Cash",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-08-17T06:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-08-17T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678064"
+  },
+  "appointmentId": {
+    "$oid": "1d31d18a5e8680ee6558f372"
+  },
+  "subtotal": 1500,
+  "discount": 0,
+  "finalAmount": 1500,
+  "paymentMode": "UPI",
+  "paymentStatus": "Paid",
+  "paidAt": {
+    "$date": "2026-08-16T05:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2026-08-16T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d267806f"
+  },
+  "appointmentId": {
+    "$oid": "0d852f239cff93f1fa53ccfc"
+  },
+  "subtotal": 850,
+  "discount": 85,
+  "finalAmount": 765,
+  "paymentMode": "Card",
+  "paymentStatus": "Unpaid",
+  "paidAt": null,
+  "createdAt": {
+    "$date": "2026-08-15T02:30:00.000Z"
+  }
+}]

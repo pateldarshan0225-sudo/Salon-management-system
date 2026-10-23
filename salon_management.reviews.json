@@ -1,0 +1,384 @@
+[{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921154ee"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e11"
+  },
+  "appointmentId": {
+    "$oid": "93c80469a4d55e2a9f92c289"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-10-22T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921154f9"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e12"
+  },
+  "appointmentId": {
+    "$oid": "52fcee721e74ab3bf03a4128"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-10-21T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115504"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e13"
+  },
+  "appointmentId": {
+    "$oid": "780d6c31af6fcbd90fb88ad6"
+  },
+  "rating": 5,
+  "comment": "Everything started on time and the care felt personal. Very happy with my visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-10-20T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115510"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e14"
+  },
+  "appointmentId": {
+    "$oid": "5450989f59b1e019759771fc"
+  },
+  "rating": 4,
+  "comment": "I appreciated the clear prices and the attention to detail throughout the treatment. (Demo review)",
+  "createdAt": {
+    "$date": "2026-10-19T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211551b"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e15"
+  },
+  "appointmentId": {
+    "$oid": "bd1ab8e12e6a62a7576a3276"
+  },
+  "rating": 5,
+  "comment": "A peaceful break from a busy week. The team made me feel welcome. (Demo review)",
+  "createdAt": {
+    "$date": "2026-10-18T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115526"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e16"
+  },
+  "appointmentId": {
+    "$oid": "66f137c81035299662cba792"
+  },
+  "rating": 5,
+  "comment": "Professional service and helpful advice for looking after the results at home. (Demo review)",
+  "createdAt": {
+    "$date": "2026-10-17T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115532"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e17"
+  },
+  "appointmentId": {
+    "$oid": "fd9222e3b2aca2013e6bbd7e"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-10-16T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211553d"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e18"
+  },
+  "appointmentId": {
+    "$oid": "515df3f86bc03753c16dfa09"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-10-15T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677ee1"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e11"
+  },
+  "appointmentId": {
+    "$oid": "c07be5267261f756d340c087"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-27T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677eec"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e12"
+  },
+  "appointmentId": {
+    "$oid": "af472b2cdd5ecd18a60dd56c"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-26T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f17"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e17"
+  },
+  "appointmentId": {
+    "$oid": "754b863a498c8f20819982e6"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-22T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f22"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e18"
+  },
+  "appointmentId": {
+    "$oid": "da783154e97871575c1a211f"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-20T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f4d"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1e"
+  },
+  "appointmentId": {
+    "$oid": "a752f7c9d68354d45435ec83"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-16T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f58"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1f"
+  },
+  "appointmentId": {
+    "$oid": "b1fd11100c7b837bcd069a0d"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-15T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f83"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e24"
+  },
+  "appointmentId": {
+    "$oid": "d5b2a6c29913034abae82415"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-10T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f8e"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e25"
+  },
+  "appointmentId": {
+    "$oid": "a6625492c6cfc55877e68437"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-09T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fb9"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e15"
+  },
+  "appointmentId": {
+    "$oid": "758a722e52e8ec5ff4e4d9ab"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-04T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fc4"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e16"
+  },
+  "appointmentId": {
+    "$oid": "98fb8e3fc3e8980a8407c0f8"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-09-03T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fef"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1c"
+  },
+  "appointmentId": {
+    "$oid": "654aa743d1e71290da2d70f8"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-08-29T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677ffa"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1d"
+  },
+  "appointmentId": {
+    "$oid": "d856d63de3d7f00e8c15d36b"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-08-28T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678025"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e22"
+  },
+  "appointmentId": {
+    "$oid": "6d30185db3cc616a1a98bae1"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-08-23T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678030"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e23"
+  },
+  "appointmentId": {
+    "$oid": "86719822dee0a8093fe1c1ee"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-08-22T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d267805b"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e13"
+  },
+  "appointmentId": {
+    "$oid": "00f6f1c013723e2581183563"
+  },
+  "rating": 4,
+  "comment": "The specialist listened to my preferences and explained the treatment clearly. A relaxing visit. (Demo review)",
+  "createdAt": {
+    "$date": "2026-08-17T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678066"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e14"
+  },
+  "appointmentId": {
+    "$oid": "1d31d18a5e8680ee6558f372"
+  },
+  "rating": 5,
+  "comment": "Clean space, a comfortable appointment and a lovely result. I would book again. (Demo review)",
+  "createdAt": {
+    "$date": "2026-08-16T14:30:00.000Z"
+  }
+}]

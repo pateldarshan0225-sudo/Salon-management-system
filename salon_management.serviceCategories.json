@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d6f"
+  },
+  "name": "Hair",
+  "description": "Healthy hair, thoughtful cuts and fresh colour.",
+  "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d75"
+  },
+  "name": "Skin & Facial",
+  "description": "Restorative care for a natural, healthy glow.",
+  "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d7b"
+  },
+  "name": "Nails",
+  "description": "Little details, beautifully finished.",
+  "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d81"
+  },
+  "name": "Spa & Massage",
+  "description": "A quieter moment for mind and body.",
+  "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d87"
+  },
+  "name": "Bridal & Makeup",
+  "description": "Feel like yourself on your most special days.",
+  "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d8d"
+  },
+  "name": "Men's Grooming",
+  "description": "Refined grooming, made personal.",
+  "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80",
+  "isActive": true
+}]

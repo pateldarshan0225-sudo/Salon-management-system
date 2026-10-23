@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d93"
+  },
+  "code": "GLOW15",
+  "description": "Enjoy 15% off your next moment of self care.",
+  "discountPercent": 15,
+  "isActive": true,
+  "title": "A little time for you",
+  "validFrom": "2026-10-22",
+  "validTo": "2026-12-22"
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d94"
+  },
+  "code": "PAST20",
+  "description": "An expired offer for validation demonstrations.",
+  "discountPercent": 20,
+  "isActive": true,
+  "title": "Past season special",
+  "validFrom": "2026-08-24",
+  "validTo": "2026-10-22"
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d95"
+  },
+  "code": "SOON10",
+  "description": "An inactive offer for validation demonstrations.",
+  "discountPercent": 10,
+  "isActive": false,
+  "title": "Members preview",
+  "validFrom": "2026-10-22",
+  "validTo": "2026-12-22"
+},
+{
+  "_id": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "code": "DEMO10",
+  "description": "A demonstration offer for testing appointment discounts.",
+  "discountPercent": 10,
+  "isActive": true,
+  "title": "Wellness Welcome",
+  "validFrom": "2026-07-25",
+  "validTo": "2027-01-21"
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e38"
+  },
+  "code": "DEMO20",
+  "description": "A synthetic promotion for testing salon offers and discounts.",
+  "discountPercent": 20,
+  "isActive": true,
+  "title": "Seasonal Spa Escape",
+  "validFrom": "2026-10-22",
+  "validTo": "2027-01-21"
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e39"
+  },
+  "code": "WEEKDAY12",
+  "description": "A synthetic promotion for testing salon offers and discounts.",
+  "discountPercent": 12,
+  "isActive": true,
+  "title": "Everyday Glow",
+  "validFrom": "2026-10-22",
+  "validTo": "2027-01-21"
+}]

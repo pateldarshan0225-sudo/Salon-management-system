@@ -1,0 +1,1300 @@
+[{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921154e9"
+  },
+  "appointmentId": {
+    "$oid": "93c80469a4d55e2a9f92c289"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921154ea"
+  },
+  "appointmentId": {
+    "$oid": "93c80469a4d55e2a9f92c289"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "price": 900,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921154f5"
+  },
+  "appointmentId": {
+    "$oid": "52fcee721e74ab3bf03a4128"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115500"
+  },
+  "appointmentId": {
+    "$oid": "780d6c31af6fcbd90fb88ad6"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211550b"
+  },
+  "appointmentId": {
+    "$oid": "5450989f59b1e019759771fc"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211550c"
+  },
+  "appointmentId": {
+    "$oid": "5450989f59b1e019759771fc"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115517"
+  },
+  "appointmentId": {
+    "$oid": "bd1ab8e12e6a62a7576a3276"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115522"
+  },
+  "appointmentId": {
+    "$oid": "66f137c81035299662cba792"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211552d"
+  },
+  "appointmentId": {
+    "$oid": "fd9222e3b2aca2013e6bbd7e"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211552e"
+  },
+  "appointmentId": {
+    "$oid": "fd9222e3b2aca2013e6bbd7e"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "price": 900,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115539"
+  },
+  "appointmentId": {
+    "$oid": "515df3f86bc03753c16dfa09"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115544"
+  },
+  "appointmentId": {
+    "$oid": "a6166147f14b18b42eec2de5"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211554d"
+  },
+  "appointmentId": {
+    "$oid": "6ac2b2c705d8e61fc8cb4698"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211554e"
+  },
+  "appointmentId": {
+    "$oid": "6ac2b2c705d8e61fc8cb4698"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115557"
+  },
+  "appointmentId": {
+    "$oid": "dd49f3eab1c4e5670586cfa4"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115560"
+  },
+  "appointmentId": {
+    "$oid": "676236acf845e49936327e98"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211556a"
+  },
+  "appointmentId": {
+    "$oid": "7e4d8ec758e2e89f527c52e8"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211556b"
+  },
+  "appointmentId": {
+    "$oid": "7e4d8ec758e2e89f527c52e8"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "price": 900,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115572"
+  },
+  "appointmentId": {
+    "$oid": "bb1ba9e993ecdd2e25c02cf6"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115579"
+  },
+  "appointmentId": {
+    "$oid": "ed5f38d9e30ae3cab1244382"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115580"
+  },
+  "appointmentId": {
+    "$oid": "869b7b71b4f4f07b60d3724a"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115581"
+  },
+  "appointmentId": {
+    "$oid": "869b7b71b4f4f07b60d3724a"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115588"
+  },
+  "appointmentId": {
+    "$oid": "b76bc92f3defdec8dffa3c07"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211558f"
+  },
+  "appointmentId": {
+    "$oid": "9693ea938ba3e902c53c32c4"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115596"
+  },
+  "appointmentId": {
+    "$oid": "b5f128d416dc5f4365781d3d"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe90292115597"
+  },
+  "appointmentId": {
+    "$oid": "b5f128d416dc5f4365781d3d"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "price": 900,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe9029211559e"
+  },
+  "appointmentId": {
+    "$oid": "4bf68cdddb1419e7bb4f400a"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921155a5"
+  },
+  "appointmentId": {
+    "$oid": "119d299e01f9d6aef1bae00d"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921155ac"
+  },
+  "appointmentId": {
+    "$oid": "553070f679b6f7f7b7aa5bb9"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921155ad"
+  },
+  "appointmentId": {
+    "$oid": "553070f679b6f7f7b7aa5bb9"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921155b4"
+  },
+  "appointmentId": {
+    "$oid": "608b36bae2fda0b7f2cfa5cc"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb4ecddfefe902921155bb"
+  },
+  "appointmentId": {
+    "$oid": "0bac9af3e92fb3253deed524"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677edc"
+  },
+  "appointmentId": {
+    "$oid": "c07be5267261f756d340c087"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677edd"
+  },
+  "appointmentId": {
+    "$oid": "c07be5267261f756d340c087"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "price": 900,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677ee8"
+  },
+  "appointmentId": {
+    "$oid": "af472b2cdd5ecd18a60dd56c"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677ef3"
+  },
+  "appointmentId": {
+    "$oid": "bcd4402c82023be718d835c2"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677efc"
+  },
+  "appointmentId": {
+    "$oid": "03801fba81ea72ef75aca9b9"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677efd"
+  },
+  "appointmentId": {
+    "$oid": "03801fba81ea72ef75aca9b9"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e35"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f04"
+  },
+  "appointmentId": {
+    "$oid": "5df883d42146dfb7a487be0d"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f0b"
+  },
+  "appointmentId": {
+    "$oid": "cd5a7c43f0560eee66b4c9a0"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f12"
+  },
+  "appointmentId": {
+    "$oid": "754b863a498c8f20819982e6"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f13"
+  },
+  "appointmentId": {
+    "$oid": "754b863a498c8f20819982e6"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f1e"
+  },
+  "appointmentId": {
+    "$oid": "da783154e97871575c1a211f"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f29"
+  },
+  "appointmentId": {
+    "$oid": "85ebc6a0ff1892cc1db00d5e"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f32"
+  },
+  "appointmentId": {
+    "$oid": "83bb9ee8895e191836b0e67c"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f33"
+  },
+  "appointmentId": {
+    "$oid": "83bb9ee8895e191836b0e67c"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e2c"
+  },
+  "price": 850,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f3a"
+  },
+  "appointmentId": {
+    "$oid": "19afa3b873eff69d219e6b7a"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f41"
+  },
+  "appointmentId": {
+    "$oid": "d7569033874352bca7fe5576"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f48"
+  },
+  "appointmentId": {
+    "$oid": "a752f7c9d68354d45435ec83"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f49"
+  },
+  "appointmentId": {
+    "$oid": "a752f7c9d68354d45435ec83"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "price": 900,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f54"
+  },
+  "appointmentId": {
+    "$oid": "b1fd11100c7b837bcd069a0d"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f5f"
+  },
+  "appointmentId": {
+    "$oid": "79285a1e57423951efee771c"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f68"
+  },
+  "appointmentId": {
+    "$oid": "c640d706754f8087bdd55e89"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f69"
+  },
+  "appointmentId": {
+    "$oid": "c640d706754f8087bdd55e89"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e35"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f70"
+  },
+  "appointmentId": {
+    "$oid": "c768fc3c03343045323f9dd7"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f77"
+  },
+  "appointmentId": {
+    "$oid": "c1c2bb726ec8505542cc763f"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f7e"
+  },
+  "appointmentId": {
+    "$oid": "d5b2a6c29913034abae82415"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f7f"
+  },
+  "appointmentId": {
+    "$oid": "d5b2a6c29913034abae82415"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f8a"
+  },
+  "appointmentId": {
+    "$oid": "a6625492c6cfc55877e68437"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f95"
+  },
+  "appointmentId": {
+    "$oid": "be0b6241b3dd629dbcc43489"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f9e"
+  },
+  "appointmentId": {
+    "$oid": "46443085bf212d144a057e95"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677f9f"
+  },
+  "appointmentId": {
+    "$oid": "46443085bf212d144a057e95"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e2c"
+  },
+  "price": 850,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fa6"
+  },
+  "appointmentId": {
+    "$oid": "11414f05e699fa71d59b7da6"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fad"
+  },
+  "appointmentId": {
+    "$oid": "e1725f83a0786d3d64cd61b0"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fb4"
+  },
+  "appointmentId": {
+    "$oid": "758a722e52e8ec5ff4e4d9ab"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fb5"
+  },
+  "appointmentId": {
+    "$oid": "758a722e52e8ec5ff4e4d9ab"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "price": 900,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fc0"
+  },
+  "appointmentId": {
+    "$oid": "98fb8e3fc3e8980a8407c0f8"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fcb"
+  },
+  "appointmentId": {
+    "$oid": "6a5bedeab8ad4231271bf65d"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fd4"
+  },
+  "appointmentId": {
+    "$oid": "d97943857b71b419d15c2d41"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fd5"
+  },
+  "appointmentId": {
+    "$oid": "d97943857b71b419d15c2d41"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e35"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fdc"
+  },
+  "appointmentId": {
+    "$oid": "65aab5b7fedd0268bfac0064"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fe3"
+  },
+  "appointmentId": {
+    "$oid": "aa738a173d875f3fa0003a46"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677fea"
+  },
+  "appointmentId": {
+    "$oid": "654aa743d1e71290da2d70f8"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677feb"
+  },
+  "appointmentId": {
+    "$oid": "654aa743d1e71290da2d70f8"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2677ff6"
+  },
+  "appointmentId": {
+    "$oid": "d856d63de3d7f00e8c15d36b"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678001"
+  },
+  "appointmentId": {
+    "$oid": "834f24c41b179a91481ee08a"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d267800a"
+  },
+  "appointmentId": {
+    "$oid": "8d3e60cb9ac2277e5d46e7a4"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d267800b"
+  },
+  "appointmentId": {
+    "$oid": "8d3e60cb9ac2277e5d46e7a4"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e2c"
+  },
+  "price": 850,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678012"
+  },
+  "appointmentId": {
+    "$oid": "3e2db6eff319a96ce968f254"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678019"
+  },
+  "appointmentId": {
+    "$oid": "ce336ff86c7a3008ebf7c95f"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678020"
+  },
+  "appointmentId": {
+    "$oid": "6d30185db3cc616a1a98bae1"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678021"
+  },
+  "appointmentId": {
+    "$oid": "6d30185db3cc616a1a98bae1"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "price": 900,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d267802c"
+  },
+  "appointmentId": {
+    "$oid": "86719822dee0a8093fe1c1ee"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678037"
+  },
+  "appointmentId": {
+    "$oid": "91eac5c69d1fa8a255003701"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678040"
+  },
+  "appointmentId": {
+    "$oid": "2fdae920c773ef284454db12"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500baa6e44e8d2678041"
+  },
+  "appointmentId": {
+    "$oid": "2fdae920c773ef284454db12"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e35"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678048"
+  },
+  "appointmentId": {
+    "$oid": "b3edc19bb4c9a5084f0699f5"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d267804f"
+  },
+  "appointmentId": {
+    "$oid": "7b4f3ea5261826563bbb7a25"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "price": 350,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678056"
+  },
+  "appointmentId": {
+    "$oid": "00f6f1c013723e2581183563"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "price": 750,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678057"
+  },
+  "appointmentId": {
+    "$oid": "00f6f1c013723e2581183563"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678062"
+  },
+  "appointmentId": {
+    "$oid": "1d31d18a5e8680ee6558f372"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "price": 1500,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d267806d"
+  },
+  "appointmentId": {
+    "$oid": "0d852f239cff93f1fa53ccfc"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "price": 850,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678076"
+  },
+  "appointmentId": {
+    "$oid": "b32fe0db4f7605ad9f409c6e"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678077"
+  },
+  "appointmentId": {
+    "$oid": "b32fe0db4f7605ad9f409c6e"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e2c"
+  },
+  "price": 850,
+  "duration": 45
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d267807e"
+  },
+  "appointmentId": {
+    "$oid": "e1446f43b12f6e5d08f991e9"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "price": 650,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb500caa6e44e8d2678085"
+  },
+  "appointmentId": {
+    "$oid": "45d57485c3dd8a866dc30234"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "price": 550,
+  "duration": 30
+},
+{
+  "_id": {
+    "$oid": "6adb527269cca11bd2879c00"
+  },
+  "appointmentId": {
+    "$oid": "6adb527269cca11bd2879bfe"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d89"
+  },
+  "price": 3500,
+  "duration": 90
+},
+{
+  "_id": {
+    "$oid": "6adb527269cca11bd2879c01"
+  },
+  "appointmentId": {
+    "$oid": "6adb527269cca11bd2879bfe"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d77"
+  },
+  "price": 1200,
+  "duration": 60
+},
+{
+  "_id": {
+    "$oid": "6adb538469cca11bd2879eae"
+  },
+  "appointmentId": {
+    "$oid": "6adb538469cca11bd2879eac"
+  },
+  "serviceId": {
+    "$oid": "6adb500b6cce4991ff9d3e33"
+  },
+  "price": 4500,
+  "duration": 120
+},
+{
+  "_id": {
+    "$oid": "6adb5d7d33483a4bd48f46bc"
+  },
+  "appointmentId": {
+    "$oid": "6adb5d7d33483a4bd48f46ba"
+  },
+  "serviceId": {
+    "$oid": "6adb475c6cce4991ff9d3d83"
+  },
+  "price": 2600,
+  "duration": 90
+}]

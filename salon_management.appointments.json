@@ -1,0 +1,1797 @@
+[{
+  "_id": {
+    "$oid": "93c80469a4d55e2a9f92c289"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e11"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d74"
+  },
+  "appointmentDate": "2026-10-22",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1550,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 155,
+  "status": "Completed",
+  "notes": "Demo test appointment 01 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-22T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "52fcee721e74ab3bf03a4128"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e12"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-10-21",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 02 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-21T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "780d6c31af6fcbd90fb88ad6"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e13"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d92"
+  },
+  "appointmentDate": "2026-10-20",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 350,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 35,
+  "status": "Completed",
+  "notes": "Demo test appointment 03 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-20T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "5450989f59b1e019759771fc"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e14"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d7a"
+  },
+  "appointmentDate": "2026-10-19",
+  "startTime": "10:00",
+  "endTime": "11:30",
+  "totalDuration": 90,
+  "totalAmount": 2250,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 04 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-19T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "bd1ab8e12e6a62a7576a3276"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e15"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-10-18",
+  "startTime": "09:30",
+  "endTime": "10:30",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 150,
+  "status": "Completed",
+  "notes": "Demo test appointment 05 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-18T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66f137c81035299662cba792"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e16"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d80"
+  },
+  "appointmentDate": "2026-10-17",
+  "startTime": "10:00",
+  "endTime": "10:30",
+  "totalDuration": 30,
+  "totalAmount": 550,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 06 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-17T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "fd9222e3b2aca2013e6bbd7e"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e17"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d74"
+  },
+  "appointmentDate": "2026-10-16",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1550,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 155,
+  "status": "Completed",
+  "notes": "Demo test appointment 07 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-16T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "515df3f86bc03753c16dfa09"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e18"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-10-15",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 08 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-15T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "a6166147f14b18b42eec2de5"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e11"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d92"
+  },
+  "appointmentDate": "2026-10-14",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 350,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 35,
+  "status": "Completed",
+  "notes": "Demo test appointment 09 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-14T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ac2b2c705d8e61fc8cb4698"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e12"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d7a"
+  },
+  "appointmentDate": "2026-10-13",
+  "startTime": "10:00",
+  "endTime": "11:30",
+  "totalDuration": 90,
+  "totalAmount": 2250,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 10 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-13T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "dd49f3eab1c4e5670586cfa4"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e13"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-10-11",
+  "startTime": "09:30",
+  "endTime": "10:30",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 150,
+  "status": "Completed",
+  "notes": "Demo test appointment 11 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-11T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "676236acf845e49936327e98"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e14"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d80"
+  },
+  "appointmentDate": "2026-10-11",
+  "startTime": "10:00",
+  "endTime": "10:30",
+  "totalDuration": 30,
+  "totalAmount": 550,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 12 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-11T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "7e4d8ec758e2e89f527c52e8"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e15"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d74"
+  },
+  "appointmentDate": "2026-10-30",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1550,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 155,
+  "status": "Pending",
+  "notes": "Demo test appointment 13 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "bb1ba9e993ecdd2e25c02cf6"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e16"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-10-30",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 14 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "ed5f38d9e30ae3cab1244382"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e17"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d92"
+  },
+  "appointmentDate": "2026-10-24",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 350,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 35,
+  "status": "Pending",
+  "notes": "Demo test appointment 15 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "869b7b71b4f4f07b60d3724a"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e18"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d7a"
+  },
+  "appointmentDate": "2026-10-26",
+  "startTime": "10:00",
+  "endTime": "11:30",
+  "totalDuration": 90,
+  "totalAmount": 2250,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 16 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b76bc92f3defdec8dffa3c07"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e11"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-10-27",
+  "startTime": "09:30",
+  "endTime": "10:30",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 150,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 17 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "9693ea938ba3e902c53c32c4"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e12"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d80"
+  },
+  "appointmentDate": "2026-10-27",
+  "startTime": "10:00",
+  "endTime": "10:30",
+  "totalDuration": 30,
+  "totalAmount": 550,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 18 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b5f128d416dc5f4365781d3d"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e13"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d74"
+  },
+  "appointmentDate": "2026-10-28",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1550,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 155,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 19 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "4bf68cdddb1419e7bb4f400a"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e14"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-10-29",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 20 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "119d299e01f9d6aef1bae00d"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e15"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d92"
+  },
+  "appointmentDate": "2026-10-30",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 350,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 35,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 21 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "553070f679b6f7f7b7aa5bb9"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e16"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d7a"
+  },
+  "appointmentDate": "2026-10-24",
+  "startTime": "10:00",
+  "endTime": "11:30",
+  "totalDuration": 90,
+  "totalAmount": 2250,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 22 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "608b36bae2fda0b7f2cfa5cc"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e17"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-10-25",
+  "startTime": "09:30",
+  "endTime": "10:30",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 150,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 23 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "0bac9af3e92fb3253deed524"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e18"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d80"
+  },
+  "appointmentDate": "2026-10-27",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 550,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 24 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c07be5267261f756d340c087"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e11"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d74"
+  },
+  "appointmentDate": "2026-09-27",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1550,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 155,
+  "status": "Completed",
+  "notes": "Demo test appointment 25 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-27T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "af472b2cdd5ecd18a60dd56c"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e12"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-09-26",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 26 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-26T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "bcd4402c82023be718d835c2"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e13"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e34"
+  },
+  "appointmentDate": "2026-09-26",
+  "startTime": "11:00",
+  "endTime": "12:00",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 150,
+  "status": "Completed",
+  "notes": "Demo test appointment 27 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-26T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "03801fba81ea72ef75aca9b9"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e14"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e37"
+  },
+  "appointmentDate": "2026-10-30",
+  "startTime": "10:00",
+  "endTime": "11:00",
+  "totalDuration": 60,
+  "totalAmount": 1000,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 28 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "5df883d42146dfb7a487be0d"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e15"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e2b"
+  },
+  "appointmentDate": "2026-10-24",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 750,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 75,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 29 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "cd5a7c43f0560eee66b4c9a0"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e16"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d92"
+  },
+  "appointmentDate": "2026-10-26",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 350,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 30 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "754b863a498c8f20819982e6"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e17"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d7a"
+  },
+  "appointmentDate": "2026-09-22",
+  "startTime": "10:00",
+  "endTime": "11:30",
+  "totalDuration": 90,
+  "totalAmount": 2250,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 225,
+  "status": "Completed",
+  "notes": "Demo test appointment 31 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-22T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "da783154e97871575c1a211f"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e18"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-09-20",
+  "startTime": "09:30",
+  "endTime": "10:30",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 32 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-20T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "85ebc6a0ff1892cc1db00d5e"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1a"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e31"
+  },
+  "appointmentDate": "2026-09-20",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 85,
+  "status": "Completed",
+  "notes": "Demo test appointment 33 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-20T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "83bb9ee8895e191836b0e67c"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1b"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d80"
+  },
+  "appointmentDate": "2026-10-29",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1400,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 34 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "19afa3b873eff69d219e6b7a"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1c"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e28"
+  },
+  "appointmentDate": "2026-10-30",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 650,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 65,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 35 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "d7569033874352bca7fe5576"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1d"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e2e"
+  },
+  "appointmentDate": "2026-10-24",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 550,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 36 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "a752f7c9d68354d45435ec83"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1e"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d74"
+  },
+  "appointmentDate": "2026-09-16",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1550,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 155,
+  "status": "Completed",
+  "notes": "Demo test appointment 37 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-16T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b1fd11100c7b837bcd069a0d"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1f"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-09-15",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 38 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-15T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "79285a1e57423951efee771c"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e20"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e34"
+  },
+  "appointmentDate": "2026-09-14",
+  "startTime": "11:00",
+  "endTime": "12:00",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 150,
+  "status": "Completed",
+  "notes": "Demo test appointment 39 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-14T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c640d706754f8087bdd55e89"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e21"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e37"
+  },
+  "appointmentDate": "2026-10-28",
+  "startTime": "10:00",
+  "endTime": "11:00",
+  "totalDuration": 60,
+  "totalAmount": 1000,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 40 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c768fc3c03343045323f9dd7"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e22"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e2b"
+  },
+  "appointmentDate": "2026-10-29",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 750,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 75,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 41 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "c1c2bb726ec8505542cc763f"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e23"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d92"
+  },
+  "appointmentDate": "2026-10-30",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 350,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 42 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "d5b2a6c29913034abae82415"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e24"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d7a"
+  },
+  "appointmentDate": "2026-09-10",
+  "startTime": "10:00",
+  "endTime": "11:30",
+  "totalDuration": 90,
+  "totalAmount": 2250,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 225,
+  "status": "Completed",
+  "notes": "Demo test appointment 43 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-10T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "a6625492c6cfc55877e68437"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e25"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-09-09",
+  "startTime": "09:30",
+  "endTime": "10:30",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 44 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-09T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "be0b6241b3dd629dbcc43489"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e11"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e31"
+  },
+  "appointmentDate": "2026-09-08",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 85,
+  "status": "Completed",
+  "notes": "Demo test appointment 45 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-08T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "46443085bf212d144a057e95"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e12"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d80"
+  },
+  "appointmentDate": "2026-10-27",
+  "startTime": "10:30",
+  "endTime": "11:45",
+  "totalDuration": 75,
+  "totalAmount": 1400,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 46 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "11414f05e699fa71d59b7da6"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e13"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e28"
+  },
+  "appointmentDate": "2026-10-28",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 650,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 65,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 47 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "e1725f83a0786d3d64cd61b0"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e14"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e2e"
+  },
+  "appointmentDate": "2026-10-29",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 550,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 48 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "758a722e52e8ec5ff4e4d9ab"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e15"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d74"
+  },
+  "appointmentDate": "2026-09-04",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1550,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 155,
+  "status": "Completed",
+  "notes": "Demo test appointment 49 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-04T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "98fb8e3fc3e8980a8407c0f8"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e16"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-09-03",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 50 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-03T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a5bedeab8ad4231271bf65d"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e17"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e34"
+  },
+  "appointmentDate": "2026-09-02",
+  "startTime": "11:00",
+  "endTime": "12:00",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 150,
+  "status": "Completed",
+  "notes": "Demo test appointment 51 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-09-02T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "d97943857b71b419d15c2d41"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e18"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e37"
+  },
+  "appointmentDate": "2026-10-26",
+  "startTime": "10:00",
+  "endTime": "11:00",
+  "totalDuration": 60,
+  "totalAmount": 1000,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 52 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65aab5b7fedd0268bfac0064"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1a"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e2b"
+  },
+  "appointmentDate": "2026-10-27",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 750,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 75,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 53 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "aa738a173d875f3fa0003a46"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1b"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d92"
+  },
+  "appointmentDate": "2026-10-28",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 350,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 54 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "654aa743d1e71290da2d70f8"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1c"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d7a"
+  },
+  "appointmentDate": "2026-08-29",
+  "startTime": "10:00",
+  "endTime": "11:30",
+  "totalDuration": 90,
+  "totalAmount": 2250,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 225,
+  "status": "Completed",
+  "notes": "Demo test appointment 55 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-29T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "d856d63de3d7f00e8c15d36b"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1d"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-08-28",
+  "startTime": "09:30",
+  "endTime": "10:30",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 56 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-28T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "834f24c41b179a91481ee08a"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1e"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e31"
+  },
+  "appointmentDate": "2026-08-27",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 85,
+  "status": "Completed",
+  "notes": "Demo test appointment 57 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-27T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "8d3e60cb9ac2277e5d46e7a4"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e1f"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d80"
+  },
+  "appointmentDate": "2026-10-25",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1400,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 58 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "3e2db6eff319a96ce968f254"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e20"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e28"
+  },
+  "appointmentDate": "2026-10-26",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 650,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 65,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 59 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "ce336ff86c7a3008ebf7c95f"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e21"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e2e"
+  },
+  "appointmentDate": "2026-10-27",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 550,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 60 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6d30185db3cc616a1a98bae1"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e22"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d74"
+  },
+  "appointmentDate": "2026-08-23",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1550,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 155,
+  "status": "Completed",
+  "notes": "Demo test appointment 61 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "86719822dee0a8093fe1c1ee"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e23"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-08-22",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 62 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-22T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "91eac5c69d1fa8a255003701"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e24"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e34"
+  },
+  "appointmentDate": "2026-08-21",
+  "startTime": "11:00",
+  "endTime": "12:00",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 150,
+  "status": "Completed",
+  "notes": "Demo test appointment 63 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-21T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "2fdae920c773ef284454db12"
+  },
+  "userId": {
+    "$oid": "6adb500b6cce4991ff9d3e25"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e37"
+  },
+  "appointmentDate": "2026-10-24",
+  "startTime": "10:00",
+  "endTime": "11:00",
+  "totalDuration": 60,
+  "totalAmount": 1000,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 64 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b3edc19bb4c9a5084f0699f5"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e11"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e2b"
+  },
+  "appointmentDate": "2026-10-25",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 750,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 75,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 65 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "7b4f3ea5261826563bbb7a25"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e12"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d92"
+  },
+  "appointmentDate": "2026-10-26",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 350,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 66 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "00f6f1c013723e2581183563"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e13"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d7a"
+  },
+  "appointmentDate": "2026-08-17",
+  "startTime": "10:00",
+  "endTime": "11:30",
+  "totalDuration": 90,
+  "totalAmount": 2250,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 225,
+  "status": "Completed",
+  "notes": "Demo test appointment 67 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-17T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "1d31d18a5e8680ee6558f372"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e14"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-08-16",
+  "startTime": "09:30",
+  "endTime": "10:30",
+  "totalDuration": 60,
+  "totalAmount": 1500,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Completed",
+  "notes": "Demo test appointment 68 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-16T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "0d852f239cff93f1fa53ccfc"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e15"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e31"
+  },
+  "appointmentDate": "2026-08-15",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 850,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 85,
+  "status": "Completed",
+  "notes": "Demo test appointment 69 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-08-15T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "b32fe0db4f7605ad9f409c6e"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e16"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d80"
+  },
+  "appointmentDate": "2026-10-30",
+  "startTime": "09:00",
+  "endTime": "10:15",
+  "totalDuration": 75,
+  "totalAmount": 1400,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "Demo test appointment 70 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "e1446f43b12f6e5d08f991e9"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e17"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e28"
+  },
+  "appointmentDate": "2026-10-24",
+  "startTime": "10:30",
+  "endTime": "11:00",
+  "totalDuration": 30,
+  "totalAmount": 650,
+  "offerId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e19"
+  },
+  "discountAmount": 65,
+  "status": "Confirmed",
+  "notes": "Demo test appointment 71 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "45d57485c3dd8a866dc30234"
+  },
+  "userId": {
+    "$oid": "6adb4ecc6cce4991ff9d3e18"
+  },
+  "staffId": {
+    "$oid": "6adb500b6cce4991ff9d3e2e"
+  },
+  "appointmentDate": "2026-10-25",
+  "startTime": "11:00",
+  "endTime": "11:30",
+  "totalDuration": 30,
+  "totalAmount": 550,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Cancelled",
+  "notes": "Demo test appointment 72 — synthetic data for college project testing.",
+  "createdAt": {
+    "$date": "2026-10-23T02:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb527269cca11bd2879bfe"
+  },
+  "userId": {
+    "$oid": "6adb516a69cca11bd2879ad8"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-10-24",
+  "startTime": "10:00",
+  "endTime": "12:30",
+  "totalDuration": 150,
+  "totalAmount": 4700,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "",
+  "createdAt": {
+    "$date": "2026-10-23T12:26:26.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb538469cca11bd2879eac"
+  },
+  "userId": {
+    "$oid": "6adb537069cca11bd2879e76"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d8c"
+  },
+  "appointmentDate": "2026-10-25",
+  "startTime": "15:00",
+  "endTime": "17:00",
+  "totalDuration": 120,
+  "totalAmount": 4500,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Pending",
+  "notes": "",
+  "createdAt": {
+    "$date": "2026-10-23T12:31:00.961Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6adb5d7d33483a4bd48f46ba"
+  },
+  "userId": {
+    "$oid": "6adb537069cca11bd2879e76"
+  },
+  "staffId": {
+    "$oid": "6adb475c6cce4991ff9d3d86"
+  },
+  "appointmentDate": "2026-10-26",
+  "startTime": "13:00",
+  "endTime": "14:30",
+  "totalDuration": 90,
+  "totalAmount": 2600,
+  "offerId": null,
+  "discountAmount": 0,
+  "status": "Confirmed",
+  "notes": "",
+  "createdAt": {
+    "$date": "2026-10-23T13:13:33.683Z"
+  }
+}]

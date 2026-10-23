@@ -1,0 +1,612 @@
+[{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d70"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d6f"
+  },
+  "name": "Signature Haircut",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.785Z"
+  },
+  "description": "Signature Haircut is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 30,
+  "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 650
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d71"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d6f"
+  },
+  "name": "Hair Spa Ritual",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.789Z"
+  },
+  "description": "Hair Spa Ritual is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1200
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d72"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d6f"
+  },
+  "name": "Global Hair Colour",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.792Z"
+  },
+  "description": "Global Hair Colour is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 120,
+  "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 3200
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d73"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d6f"
+  },
+  "name": "Smooth & Shine Styling",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.795Z"
+  },
+  "description": "Smooth & Shine Styling is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 45,
+  "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 900
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d76"
+  },
+  "name": "Botanical Glow Facial",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d75"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.806Z"
+  },
+  "description": "Botanical Glow Facial is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1500
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d77"
+  },
+  "name": "Deep Cleansing Facial",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d75"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.809Z"
+  },
+  "description": "Deep Cleansing Facial is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1200
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d78"
+  },
+  "name": "Hydration Therapy",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d75"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.812Z"
+  },
+  "description": "Hydration Therapy is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 75,
+  "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1800
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d79"
+  },
+  "name": "Express Skin Refresh",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d75"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.814Z"
+  },
+  "description": "Express Skin Refresh is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 30,
+  "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 750
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d7c"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d7b"
+  },
+  "name": "Classic Manicure",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.823Z"
+  },
+  "description": "Classic Manicure is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 30,
+  "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 550
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d7d"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d7b"
+  },
+  "name": "Spa Pedicure",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.826Z"
+  },
+  "description": "Spa Pedicure is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 950
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d7e"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d7b"
+  },
+  "name": "Gel Nail Finish",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.828Z"
+  },
+  "description": "Gel Nail Finish is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1100
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d7f"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d7b"
+  },
+  "name": "Nail Art Session",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.830Z"
+  },
+  "description": "Nail Art Session is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 45,
+  "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 800
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d82"
+  },
+  "name": "Aromatherapy Massage",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d81"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.839Z"
+  },
+  "description": "Aromatherapy Massage is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 2200
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d83"
+  },
+  "name": "Deep Tissue Massage",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d81"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.841Z"
+  },
+  "description": "Deep Tissue Massage is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 90,
+  "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 2600
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d84"
+  },
+  "name": "Head & Shoulder Release",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d81"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.844Z"
+  },
+  "description": "Head & Shoulder Release is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 30,
+  "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 850
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d85"
+  },
+  "name": "Full Body Renewal",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d81"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.846Z"
+  },
+  "description": "Full Body Renewal is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 120,
+  "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 3500
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d88"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d87"
+  },
+  "name": "Occasion Makeup",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.854Z"
+  },
+  "description": "Occasion Makeup is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 2500
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d89"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d87"
+  },
+  "name": "Bridal Makeup Trial",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.857Z"
+  },
+  "description": "Bridal Makeup Trial is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 90,
+  "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 3500
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d8a"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d87"
+  },
+  "name": "Bridal Signature Look",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.860Z"
+  },
+  "description": "Bridal Signature Look is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 120,
+  "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 8000
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d8b"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d87"
+  },
+  "name": "Elegant Hair Updo",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.864Z"
+  },
+  "description": "Elegant Hair Updo is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1500
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d8e"
+  },
+  "name": "Men's Precision Cut",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d8d"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.874Z"
+  },
+  "description": "Men's Precision Cut is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 30,
+  "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 450
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d8f"
+  },
+  "name": "Beard Shape & Finish",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d8d"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.882Z"
+  },
+  "description": "Beard Shape & Finish is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 30,
+  "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 350
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d90"
+  },
+  "name": "Grooming Refresh",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d8d"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.885Z"
+  },
+  "description": "Grooming Refresh is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1200
+},
+{
+  "_id": {
+    "$oid": "6adb475c6cce4991ff9d3d91"
+  },
+  "name": "Scalp Care Ritual",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d8d"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.888Z"
+  },
+  "description": "Scalp Care Ritual is a personalised treatment combining professional care with a calm, unhurried experience. Your specialist will discuss your preferences before beginning.",
+  "duration": 45,
+  "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1000
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e26"
+  },
+  "name": "Root Touch-Up",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d6f"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.635Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1600
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e27"
+  },
+  "name": "Scalp Detox",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d6f"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.638Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1400
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e29"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d75"
+  },
+  "name": "Vitamin C Radiance Facial",
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.642Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 75,
+  "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 2100
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e2a"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d75"
+  },
+  "name": "Sensitive Skin Soothing Facial",
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.644Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1700
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e2c"
+  },
+  "name": "French Manicure",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d7b"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.647Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 45,
+  "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 850
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e2d"
+  },
+  "name": "Heel Repair Pedicure",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d7b"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.650Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1250
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e2f"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d81"
+  },
+  "name": "Hot Stone Massage",
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.653Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 90,
+  "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 2900
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e30"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d81"
+  },
+  "name": "Foot Reflexology",
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.654Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 45,
+  "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1350
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e32"
+  },
+  "name": "Party Glam Makeup",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d87"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.658Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 90,
+  "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 3200
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e33"
+  },
+  "name": "Engagement Styling",
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d87"
+  },
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.660Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 120,
+  "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 4500
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e35"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d8d"
+  },
+  "name": "Luxury Shave Ritual",
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.663Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 30,
+  "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 650
+},
+{
+  "_id": {
+    "$oid": "6adb500b6cce4991ff9d3e36"
+  },
+  "categoryId": {
+    "$oid": "6adb475c6cce4991ff9d3d8d"
+  },
+  "name": "Groom Facial & Cleanup",
+  "createdAt": {
+    "$date": "2026-10-23T12:16:11.664Z"
+  },
+  "description": "A personalised salon treatment with a consultation and attentive professional care.",
+  "duration": 60,
+  "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80",
+  "isActive": true,
+  "price": 1500
+}]

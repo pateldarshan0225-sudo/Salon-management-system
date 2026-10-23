@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6adb475c47f21b1c73011aee"
+  },
+  "name": "Salon Administrator",
+  "email": "mukti@gmail.com",
+  "password": "$2b$12$pZw9yKT5DIvH/b41yYOQ/ueXthJ9tv8owbE.PIQQ3nB2gdDXD12Hy",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2026-10-23T11:39:08.760Z"
+  }
+}]
