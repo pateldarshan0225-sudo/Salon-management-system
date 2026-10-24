@@ -75,7 +75,7 @@ Changing `SEED_ADMIN_EMAIL` or `SEED_ADMIN_PASSWORD` in `.env` does not automati
 - An appointment may finish exactly at closing time. Slots repeat every 30 minutes from each specialist’s opening time.
 - Booking and appointment-status operations share a process lock to prevent simultaneous booking races in this single Node server. **Run one backend process.** Multiple replicas need a distributed lock/transaction strategy before deployment.
 - Cascades and appointment-service writes have sequential operations and compensation for booking write failures. They are not full multi-document database transactions; a process/database failure during a cascade can require recovery. The project works with standalone MongoDB.
-- Admin completion may be recorded at any time, as the specification does not require waiting until the scheduled end. Final statuses cannot be changed.
+- Confirmed appointments automatically become Completed when their scheduled end time passes in Asia/Kolkata. The backend checks every five seconds, on startup, and before API requests; downtime is caught up after restart. Pending and Cancelled visits are never auto-completed. Bills are created once using an idempotent upsert. Final statuses cannot be changed.
 - Bills record payments collected at the salon; there is no online payment. Deleting a bill is permanent and does not recreate it automatically.
 - Branding, contact address and phone are illustrative college-project content. External image URLs and Google Fonts have local SVG/system font fallbacks. Every image has alternative text and an error fallback; decorative logos have empty alt text.
 - Local MERN implementation only; no hosting service, extra runtime libraries, UI framework, or new application collections were added. Test helpers use Node built-ins and existing Mongoose.
@@ -85,6 +85,10 @@ Changing `SEED_ADMIN_EMAIL` or `SEED_ADMIN_PASSWORD` in `.env` does not automati
 `backend/` contains configuration, ten explicit collection models, validation/slot utilities, authentication and origin middleware, controllers, routes and an idempotent seed script. `frontend/src/` contains lazy public/customer/admin pages, session context, protected routes, layouts, shared components and the CSS theme. Colours are controlled at the top of `styles/global.css`.
 
 Lists are paginated with `page` and `limit` (maximum 100). Treatment search supports `search`, `categoryId`, `maxPrice`, and `sort=name|-name|price|-price`. Admin appointment filters are `status` and `date`. All APIs return `{ success, message, data }`; paginated data contains `{ items, total, page, limit, pages }`.
+
+Staff specialization now selects a **service**, not a category. Staff create/update requests require `serviceId`; the server derives `categoryId` from the selected service. Staff lists populate both references. Booking and slot availability match the first selected service, including when choosing any available specialist. Existing staff without `serviceId` keep their original category-wide eligibility until an administrator edits them and selects a service. Services assigned to specialists cannot be deleted; set them inactive instead.
+
+Admin tables no longer expose Delete buttons. Categories, services, staff, offers and bills retain their editing controls; customers and reviews are read-only lists without an Actions column. Appointment confirmation/cancellation controls remain available; the manual Complete button is removed. Admin/customer appointment tables and customer appointment details refresh quietly every five seconds. Backend deletion routes remain available for integration tests and maintenance.
 
 Categories, services, staff and offers have Active/Inactive switches in both the table and editor. `PATCH /api/admin/{entity}/:id/active` accepts a boolean `isActive` and changes only status. Form validation matches server limits: required names/categories, positive prices, whole-minute durations, ten-digit phones, working days/hours, offer percentages/date ranges/codes and complete HTTP(S) image URLs. Related historical records still prevent deletion; inactivate those records instead. Save/delete/toggle controls are disabled during writes, failures preserve form input, and deleting the current edit record closes its editor.
 
@@ -105,7 +109,7 @@ npm run build
 npm run lint
 ```
 
-The integration script needs local MongoDB on port 27017 and free port 5099. It generates uniquely named temporary databases, seeds them twice, starts its own API, runs 140 API assertions plus concurrency/cascade/collection checks, stops the API, and removes only its test databases. It never writes credentials or changes `.env`.
+The integration script needs local MongoDB on port 27017 and free port 5099. It generates uniquely named temporary databases, seeds them twice, starts its own API, runs 148 API assertions plus concurrency/cascade/collection checks, stops the API, and removes only its test databases. It never writes credentials or changes `.env`.
 
 Backend rule tests cover IST dates, slot intervals, overlaps, non-working days, duration/closing limits, the 30-day range, two-hour cancellation, concurrent-operation serialization and invalid inputs. The integration checks cover registration/login/logout, session persistence, password/profile edits, forbidden origins, role isolation, ownership, slots, conflicting bookings, offers, status transitions, automatic bills, paid revenue, review eligibility/uniqueness, CRUD, protected deletion, stats, account cascades and stale sessions after account deletion. This uses Node fetch with cookie jars, serving the same purpose as curl cookie-jar tests.
 
