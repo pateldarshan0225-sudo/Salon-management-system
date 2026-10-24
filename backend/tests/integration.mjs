@@ -113,8 +113,24 @@ try {
   await user('/user/appointments/not-an-id','GET',null,400);
   await admin(`/admin/appointments/${appointment._id}/status`,'PUT',{status:'Completed'},400);
   await admin(`/admin/appointments/${appointment._id}/status`,'PUT',{status:'Confirmed'});
-  await admin(`/admin/appointments/${appointment._id}/status`,'PUT',{status:'Completed'});
+  assert.equal((await user(`/user/appointments/${appointment._id}`)).bill,null,'Future confirmed visits must not complete early.');
+  await admin(`/admin/appointments/${appointment._id}/status`,'PUT',{status:'Completed'},400);
+  const overdueConnection = await mongoose.createConnection(env.MONGODB_URI).asPromise();
+  const yesterday = new Date(Date.now()-86400000).toISOString().slice(0,10);
+  await overdueConnection.collection('appointments').updateOne({_id:new mongoose.Types.ObjectId(appointment._id)},{$set:{appointmentDate:yesterday}});
+  // Do not call an API here: the background timer itself must complete the visit.
+  let completedByTimer = false;
+  for (let attempt=0;attempt<32;attempt++) {
+    const row = await overdueConnection.collection('appointments').findOne({_id:new mongoose.Types.ObjectId(appointment._id)});
+    if (row.status === 'Completed') { completedByTimer = true; break; }
+    await pause(250);
+  }
+  assert.ok(completedByTimer,'Background scheduler must complete expired confirmed visits without any API request.');
+  await overdueConnection.close();
   const details = await user(`/user/appointments/${appointment._id}`); assert.equal(details.bill.paymentStatus,'Unpaid'); assert.equal(details.services.length,1); assert.ok(!details.appointment.userId.password);
+  assert.equal(details.appointment.status,'Completed','Expired confirmed appointments complete automatically.');
+  const repeatedDetails = await user(`/user/appointments/${appointment._id}`);
+  assert.equal(repeatedDetails.bill._id,details.bill._id,'Repeated completion checks must not duplicate bills.');
   await user(`/user/appointments/${appointment._id}/cancel`,'PUT',{},400);
   await admin(`/admin/appointments/${appointment._id}/status`,'PUT',{status:'Cancelled'},400);
   await admin(`/admin/bills/${details.bill._id}`,'PUT',{paymentMode:'UPI',paymentStatus:'Paid'});
@@ -151,7 +167,19 @@ try {
   for (const change of [{price:0},{price:true},{duration:1.5},{categoryId:'bad'}]) await admin('/admin/services','POST',{name:'Invalid',categoryId:newCategory._id,price:100,duration:30,isActive:true,...change},400);
   await admin(`/admin/services/${newService._id}`,'PUT',{name:'Changed Service',categoryId:newCategory._id,price:200,duration:60,isActive:false});
   await admin(`/admin/services/${newService._id}`,'DELETE');
-  const newStaff = await admin('/admin/staff','POST',{name:'Temporary Staff',categoryId:newCategory._id,phone:'9999999999',experienceYears:2,workingDays:['Mon'],startTime:'09:00',endTime:'18:00',isActive:true,image:uploaded.image},201);
+  const newStaff = await admin('/admin/staff','POST',{name:'Temporary Staff',serviceId:treatment._id,phone:'9999999999',experienceYears:2,workingDays:['Mon'],startTime:'09:00',endTime:'18:00',isActive:true,image:uploaded.image},201);
+  assert.equal(newStaff.serviceId,treatment._id);
+  assert.equal(newStaff.categoryId,treatment.categoryId._id);
+  const specialistDetail = await admin(`/admin/staff/${newStaff._id}`);
+  assert.equal(specialistDetail.serviceId.name,treatment.name);
+  await admin('/admin/staff','POST',{...newStaff,serviceId:''},400);
+  await admin('/admin/staff','POST',{...newStaff,serviceId:'000000000000000000000000'},400);
+  const differentTreatment = services.items.find(s => s.categoryId._id === hair._id && s._id !== treatment._id);
+  const monday = Array.from({length:14},(_,i)=>new Date(Date.now()+(i+1)*86400000)).find(d=>d.getUTCDay()===1).toISOString().slice(0,10);
+  const matchingSlots = await user(`/user/slots?staffId=${newStaff._id}&serviceId=${treatment._id}&date=${monday}&duration=${treatment.duration}`);
+  assert.ok(matchingSlots.length>0);
+  assert.deepEqual(await user(`/user/slots?staffId=${newStaff._id}&serviceId=${differentTreatment._id}&date=${monday}&duration=${differentTreatment.duration}`),[]);
+  await user('/user/appointments','POST',{serviceIds:[differentTreatment._id],staffId:newStaff._id,appointmentDate:monday,startTime:matchingSlots[0]},409);
   assert.equal(newStaff.image,uploaded.image);
   for (const change of [{phone:'123'},{experienceYears:61},{workingDays:[]},{endTime:'08:00'}]) await admin('/admin/staff','POST',{...newStaff,categoryId:newCategory._id,...change},400);
   await admin(`/admin/staff/${newStaff._id}`,'PUT',{...newStaff,categoryId:newCategory._id,bio:'Changed'});
