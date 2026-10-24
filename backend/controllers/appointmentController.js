@@ -15,11 +15,17 @@ async function freeSlots(staff, value, duration) {
   const appointments = await Appointment.find({ staffId: staff._id, appointmentDate: value, status: { $in: ['Pending', 'Confirmed'] } });
   return availableSlots(staff, value, duration, appointments);
 }
+// Older staff records have category-wide skills; new records specialize in one service.
+const specializationFilter = service => ({ $or:[{ serviceId:service._id },{ serviceId:null,categoryId:service.categoryId }] });
 export async function getSlots(req, res) {
   const value = date(req.query.date); checkBookingDate(value);
   const duration = number(req.query.duration, 'Duration', 1, 1440);
   let specialists;
-  if (req.query.staffId && req.query.staffId !== 'any') specialists = await Staff.find({ _id: id(req.query.staffId), isActive: true });
+  const service = req.query.serviceId ? await Service.findOne({ _id:id(req.query.serviceId,'service'),isActive:true }) : null;
+  if (req.query.serviceId) assert(service, 'Service is unavailable.');
+  const match = service ? specializationFilter(service) : {};
+  if (req.query.staffId && req.query.staffId !== 'any') specialists = await Staff.find({ _id: id(req.query.staffId), isActive: true, ...match });
+  else if (service) specialists = await Staff.find({ ...match,isActive:true }).sort({ _id:1 });
   else specialists = await Staff.find({ categoryId: id(req.query.categoryId, 'category'), isActive: true }).sort({ _id: 1 });
   const result = new Set();
   for (const staff of specialists) {
@@ -42,8 +48,8 @@ export async function createAppointment(req, res) {
     const totalDuration = services.reduce((sum, s) => sum + s.duration, 0);
     const totalAmount = services.reduce((sum, s) => sum + s.price, 0);
     let specialists;
-    if (!body.staffId || body.staffId === 'any') specialists = await Staff.find({ categoryId: services[0].categoryId, isActive: true }).sort({ _id: 1 });
-    else specialists = await Staff.find({ _id: id(body.staffId, 'specialist'), categoryId: services[0].categoryId, isActive: true });
+    if (!body.staffId || body.staffId === 'any') specialists = await Staff.find({ ...specializationFilter(services[0]), isActive: true }).sort({ _id: 1 });
+    else specialists = await Staff.find({ _id: id(body.staffId, 'specialist'), ...specializationFilter(services[0]), isActive: true });
     let selected;
     for (const staff of specialists) if ((await freeSlots(staff, body.appointmentDate, totalDuration)).includes(body.startTime)) { selected = staff; break; }
     assert(selected, 'This slot is taken or unavailable. Choose another time or specialist.', 409);
@@ -80,13 +86,10 @@ export async function cancelAppointment(req, res) {
 export async function updateStatus(req, res) {
   await withBookingLock(async () => {
     const appointment = await Appointment.findById(req.params.id); assert(appointment, 'Appointment not found.', 404);
-    const next = oneOf(req.body.status, ['Confirmed', 'Completed', 'Cancelled'], 'status');
-    const allowed = { Pending: ['Confirmed', 'Cancelled'], Confirmed: ['Completed', 'Cancelled'], Completed: [], Cancelled: [] };
+    const next = oneOf(req.body.status, ['Confirmed', 'Cancelled'], 'status (completion is automatic)');
+    const allowed = { Pending: ['Confirmed', 'Cancelled'], Confirmed: ['Cancelled'], Completed: [], Cancelled: [] };
     assert(allowed[appointment.status].includes(next), `Cannot change ${appointment.status} to ${next}.`);
-    if (next === 'Completed') {
-      // Idempotent upsert protects the unique appointment bill.
-      await Bill.updateOne({ appointmentId: appointment._id }, { $setOnInsert: { subtotal: appointment.totalAmount, discount: appointment.discountAmount, finalAmount: appointment.totalAmount - appointment.discountAmount, paymentStatus: 'Unpaid', paymentMode: 'Cash' } }, { upsert: true, runValidators: true });
-    }
+
     appointment.status = next; await appointment.save(); send(res, appointment, 'Appointment status updated.');
   });
 }
